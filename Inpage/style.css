@@ -1,0 +1,21 @@
+*{
+    margin : 0;
+    padding : 0;
+}
+
+body { 
+    background-color: black;
+}
+
+a:link, a:visited {
+    color:#EEEEEE;
+    font-size: 25px;
+    margin-left: 40px;
+    text-decoration: none;
+    align-items: center;
+}
+
+a:active {
+    color: #C2C6CC;
+    font-size: 27px;
+}

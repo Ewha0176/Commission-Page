@@ -1,0 +1,35 @@
+*{
+    margin : 0;
+    padding : 0;
+}
+
+body { 
+    background:url(./asset/free-background.jpeg);
+    backdrop-filter: grayscale(100%);
+    background-size: 100%;
+}
+
+#header {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+a:link, a:visited {
+    color:#EEEEEE;
+    font-size: 45px;
+    margin-left: 12%;
+    line-height: 100px;
+    text-decoration: none;
+}
+
+a:active {
+    line-height: 100px;
+    color: #C2C6CC;
+    font-size: 47px;
+}
+
+#title {
+    color: #000000;
+    text-align: center;
+    font-size: 60px;
+    line-height: 300px;
+}
