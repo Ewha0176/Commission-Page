@@ -4,18 +4,30 @@
 }
 
 body { 
-    background-color: black;
+    background: url(../asset/background.png);
+}
+
+#header {
+    text-align: right;
 }
 
 a:link, a:visited {
-    color:#EEEEEE;
-    font-size: 25px;
-    margin-left: 40px;
+    color:#929292;
+    font-size: 15px;
+    margin-right: 20px;
+    line-height: 50px;
     text-decoration: none;
-    align-items: center;
 }
 
 a:active {
-    color: #C2C6CC;
-    font-size: 27px;
+    line-height: 30px;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+#title {
+    color: #000000;
+    text-align: center;
+    font-size: 60px;
+    line-height: 300px;
 }
