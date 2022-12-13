@@ -4,7 +4,7 @@
 }
 
 body { 
-    background-color: #2c2c2c;
+    background-color: #000000;
 }
 
 #header {
@@ -15,7 +15,7 @@ body {
 
 a:link, a:visited {
     color:#929292;
-    font-size: 15px;
+    font-size: 15px ;
     margin-right: 20px;
     line-height: 50px;
     text-decoration: none;
@@ -44,16 +44,21 @@ h2 {
 }
 
 #title {
-    color: #000000;
-    font-size: 60px;
+    color: #EEEEEE;
 }
 
 img {
-    width: 390px;
+    width: 300px;
     height: 300px;
+    opacity: 0.8;
 }
 
 #contect-form {
     color:#EEEEEE;
 
+}
+
+#rule {
+    align-items: center;
+    
 }
