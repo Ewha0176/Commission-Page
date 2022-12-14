@@ -4,11 +4,14 @@
 }
 
 body { 
-    background: url(../asset/background.png);
+    background-color: #000000;
 }
 
 #header {
+    background: url(../asset/header-dark.png);
+    height: 150px;
     text-align: right;
+
 }
 
 a:link, a:visited {
@@ -25,6 +28,21 @@ a:active {
     font-size: 15px;
 }
 
+h1 {
+    line-height: 20%;
+    color: #EEEEEE;
+    font-size: 80px;
+    text-align: center;
+    font-family: cursive;
+}
+
+h2 {
+    line-height: 80px;
+    color: #EEEEEE;
+    font-size: 20px;
+    text-align: center;
+    font-family: cursive;
+}
 #title {
     color: #000000;
     text-align: center;
