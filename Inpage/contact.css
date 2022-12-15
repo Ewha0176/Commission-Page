@@ -4,13 +4,13 @@
 }
 
 body { 
-    background: url(../asset/background.png);
+    background-color: #252426;
 }
 
 #header {
     height: 150px;
     text-align: right;
-    background-color: rgba(0, 0, 0, 0.479);
+    background: url(../asset/header.png);
 }
 
 h1 {
@@ -35,22 +35,26 @@ a:active {
     font-size: 15px;
 }
 
+form {
+    margin-top: 10%;
+} 
+
 #name {
-    line-height: 40%;
-    margin-left: 35%;
+    margin-left: 33%;
     height: 50px;
     width: 600px;
-    background-color: #252426;
+    background-color: #c8c8c8;
 }
 
 #form{
-    margin-left: 35%;
+    margin-left: 33%;
     height: 150px;
     width: 600px;
-    background-color: #252426;
+    background-color: #c8c8c8;
 }
 
 ::placeholder {
+    vertical-align: middle;
     text-align: center;
     position: relative;
     color: #5e5b84;
@@ -62,16 +66,16 @@ a:active {
     width: 230px;
     border-radius: 10px;
     font-size: 30px;
-    background-color: #252426;
+    background-color: #c8c8c8;
     color: #5e5b84;
 }
 
 #button2 {
-    margin-left: 7%;
+    margin-left: 5%;
     height: 50px;
     width: 230px;
     border-radius: 10px;
     font-size: 30px;
-    background-color: #252426;
+    background-color: #c8c8c8;
     color: #5e5b84;
 }
