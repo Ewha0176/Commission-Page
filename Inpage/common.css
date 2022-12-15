@@ -8,7 +8,7 @@ body {
 }
 
 #header {
-    background: url(../asset/header-dark.png);
+    background: url(../asset/header.png);
     height: 150px;
     text-align: right;
 
@@ -39,10 +39,19 @@ h1 {
 h2 {
     line-height: 80px;
     color: #EEEEEE;
-    font-size: 20px;
+    font-size: 35px;
     text-align: center;
     font-family: cursive;
 }
+
+h3 {
+    line-height: 80px;
+    color: #EEEEEE;
+    font-size: 25px;
+    text-align: center;
+    font-family: cursive;
+}
+
 #title {
     color: #000000;
     text-align: center;
@@ -53,6 +62,31 @@ h2 {
 #introduce {
     width: 1000px;
     height: 500px;
-    margin-left: 12%;
+    margin-left: 430px;
     padding-top: 100px;
+}
+
+p {
+    color: white;
+    text-align: center;
+}
+
+hr {
+    color: #323232;
+    width: 1500px;
+    margin-left: 200px;
+}
+
+#a1 {
+    color: #EEEEEE;
+    font-size: 25px;
+    font-family: cursive;
+    margin-left: 550px;
+}
+
+#a2 {
+    color: #EEEEEE;
+    font-size: 25px;
+    font-family: cursive;
+    margin-left: 380px;
 }
