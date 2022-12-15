@@ -1,0 +1,64 @@
+*{
+    margin : 0;
+    padding : 0;
+}
+
+body { 
+    background-color: #252526;
+}
+
+#header {
+    background:url(../asset/header.png);
+    height: 150px;
+    text-align: right;
+}
+
+a:link, a:visited {
+    color:#929292;
+    font-size: 15px ;
+    margin-right: 20px;
+    line-height: 50px;
+    text-decoration: none;
+}
+
+a:active {
+    line-height: 30px;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+h1 {
+    line-height: 50px;
+    color: #EEEEEE;
+    font-size: 80px;
+    text-align: center;
+    font-family: cursive;
+}
+
+h3 {
+    line-height: 80px;
+    color: #EEEEEE;
+    font-size: 20px;
+    text-align: center;
+    font-family: cursive;
+}
+
+#title {
+    color: #EEEEEE;
+}
+
+img {
+    width: 450px;
+    height: 450px;
+    opacity: 0.8;
+}
+
+#contect-form {
+    color:#EEEEEE;
+
+}
+
+#rule {
+    align-items: center;
+    text-align: center;
+}
